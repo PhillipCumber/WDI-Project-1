@@ -1,15 +1,19 @@
 //First Commit to test repo
 
-// let how = $('#new').text()
-// console.log(how)
+//Creating a Jeopardy Game
+
+//step 1 Created a header section for the title of the game. Includes animation and on hover event
+
+let title = $('#title')
+// console.log(title)
 
 
+anime({
 
-    anime({
-        targets: '.title',
+        targets: '#title',
         translateX: 500, duration: 6000,
         loop: 1
 
-    })
+})
 
   
