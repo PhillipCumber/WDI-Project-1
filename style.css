@@ -1,3 +1,8 @@
+body {
+    background-image: linear-gradient(to right, purple, orange);
+
+}
+
 /* Styling for my header section */
 #title {
 
@@ -11,6 +16,7 @@
     color: blue;
     font-size: 50px;
     text-shadow: 3px 3px black;
+    margin-left: 500px;
 }
 
 /* Adding a hover to change to when you hover over title */
@@ -20,4 +26,30 @@
     height: 280px;
     width: 500px;
     font-size: 100px;
+}
+
+/* Creating styling for background of game */
+
+#outerBack {
+
+    height: 550px;
+    width: 1200px;
+    background-color: purple;
+    margin: 0 auto;
+    /* background-image: linear-gradient(to right, purple, orange); */
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: blue;
+}
+
+#board1 {
+
+    /* margin-top: 40px; */
+    margin: 0 auto;
+}
+
+.topics{
+
+    font-size: 40px;
+    border: 2px ridge black;
 }

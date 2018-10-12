@@ -11,7 +11,13 @@ let title = $('#title')
 anime({
 
         targets: '#title',
-        translateX: 500, duration: 6000,
+        translateY: [ 
+            {value: 0, duration: 2000},
+            {value: 20, duration: 2000},
+            {value: 0, duration: 2000},
+            {value: 20, duration: 2000},
+            {value: 0, duration: 2000}
+        ],
         loop: 1
 
 })
