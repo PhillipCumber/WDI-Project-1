@@ -258,7 +258,7 @@ second.on('click', function () {
 function hideText6 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is a script tag'|| response == 'script tag') {
 
 
         swal({
@@ -295,7 +295,7 @@ second2.on('click', function () {
 function hideText7 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is kanye west'|| response == 'kanye west') {
 
 
         swal({
@@ -332,7 +332,7 @@ second3.on('click', function () {
 function hideText8 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is boys in the hood'|| response == 'boys in the hood') {
 
 
         swal({
@@ -369,7 +369,7 @@ second4.on('click', function () {
 function hideText9 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is halo'|| response == 'halo') {
 
 
         swal({
@@ -408,7 +408,7 @@ second5.on('click', function () {
 function hideText10 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is jimmie johnson'|| response == 'jimmie johnson') {
 
 
         swal({
@@ -446,7 +446,7 @@ third.on('click', function () {
 function hideText11 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is bootstrap'|| response == 'bootstrap') {
 
 
         swal({
@@ -483,7 +483,7 @@ third2.on('click', function () {
 function hideText12 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is big krit'|| response == 'big krit') {
 
 
         swal({
@@ -510,7 +510,7 @@ let third3 = $('.row').eq(12)
 
 third3.on('click', function () {
 
-    third3.text('King Remebered In Time(acronym)')
+    third3.text('King Remebered In Time')
     third3.addClass('small')
     setTimeout(hideText12, 5000)
 })
@@ -520,7 +520,7 @@ third3.on('click', function () {
 function hideText13 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is air bud'|| response == 'air bud') {
 
 
         swal({
@@ -557,7 +557,7 @@ third4.on('click', function () {
 function hideText14 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is mario'|| response == 'mario') {
 
 
         swal({
@@ -596,7 +596,7 @@ third5.on('click', function () {
 function hideText15 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is miguel cabrera'|| response == 'miguel cabrera') {
 
 
         swal({
@@ -634,7 +634,7 @@ fourth.on('click', function () {
 function hideText16 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is hyper text markup language'|| response == 'hyper text markup language') {
 
 
         swal({
@@ -672,7 +672,7 @@ fourth2.on('click', function () {
 function hideText17 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is chance the rapper'|| response == 'chance the rapper') {
 
 
         swal({
@@ -711,7 +711,7 @@ fourth3.on('click', function () {
 function hideText18 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is madea'|| response == 'madea') {
 
 
         swal({
@@ -749,7 +749,7 @@ fourth4.on('click', function () {
 function hideText19 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is crash bandicoot'|| response == 'crash bandicoot') {
 
 
         swal({
@@ -788,7 +788,7 @@ fourth5.on('click', function () {
 function hideText20 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is kyrie irving'|| response == 'kyrie irving') {
 
 
         swal({
@@ -815,7 +815,7 @@ let fif = $('.row').eq(20)
 
 fif.on('click', function () {
 
-    fif.text('This character was Dr. Cortex nemesis')
+    fif.text('This player is known as Uncle Drew')
     fif.addClass('small')
     setTimeout(hideText20, 5000)
 })
@@ -825,7 +825,7 @@ fif.on('click', function () {
 function hideText21 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is unshift'|| response == 'unshift') {
 
 
         swal({
@@ -862,7 +862,7 @@ fif2.on('click', function () {
 function hideText22 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is mac miller'|| response == 'mac miller') {
 
 
         swal({
@@ -899,7 +899,7 @@ fif3.on('click', function () {
 function hideText23 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is martin lawrence'|| response == 'martin lawrence') {
 
 
         swal({
@@ -936,7 +936,7 @@ fif4.on('click', function () {
 function hideText24 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is metal gear solid'|| response == 'metal gear solid') {
 
 
         swal({
