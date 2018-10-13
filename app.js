@@ -2,10 +2,12 @@
 
 //Creating a Jeopardy Game
 
-//step 1 Created a header section for the title of the game. Includes animation and on hover event
-// step 2 Create a table to store all data in for game
-// step 3 Make sure I can click on a box to change the inner text to a question
-// step 4 Add prompt to answer questions
+//step 1 Created a header section for the title of the game. Includes animation and on hover event √√√
+// step 2 Create a table to store all data in for game √√√
+// step 3 Make sure I can click on a box to change the inner text to a question √√√
+// step 4 Add prompt to answer questions √√√
+// step 5 Add sweet Alert to each question √√√
+// step 6 Add value
 
 let title = $('#title')
 // console.log(title)
@@ -69,7 +71,7 @@ function hideText1 () {
 
    
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is equal sign'|| response == '=') {
 
 
         swal({
@@ -106,7 +108,7 @@ hunnid1.on('click', function () {
 function hideText2 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is lil wayne'|| response == 'lil wayne') {
 
 
         swal({
@@ -143,7 +145,7 @@ hunnid2.on('click', function () {
 function hideText3 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is space jam'|| response == 'space jam') {
 
 
         swal({
@@ -180,7 +182,7 @@ hunnid3.on('click', function () {
 function hideText4 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'what is a playstation'|| response == 'playstation') {
 
 
         swal({
@@ -219,7 +221,7 @@ hunnid4.on('click', function () {
 function hideText5 () {
 
     let response = prompt()
-    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+    if (response == 'who is kobe bryant'|| response == 'kobe bryant') {
 
 
         swal({
