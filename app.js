@@ -31,10 +31,24 @@ anime({
 function hideText () {
 
     let response = prompt()
-    if (response == 'who are the warriors' || 'warriors' || 'golden state warriors') {
+    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
 
+
+        swal({
+            title: "Good job!",
+            // text: "You clicked the button!",
+            icon: "success",
+          });
       
     } else {
+
+        swal({
+
+            title: "Wrong!!!",
+            type: "warning",
+            icon: "error"
+        })
+
 
     }
     hunnid.addClass('black')
@@ -53,11 +67,26 @@ hunnid.on('click', function () {
 
 function hideText1 () {
 
+   
     let response = prompt()
-    if (response == 'what is the equal sign' || '=') {
+    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
 
-        alert('nice')
+
+        swal({
+            title: "Good job!",
+            // text: "You clicked the button!",
+            icon: "success",
+          });
+      
     } else {
+
+        swal({
+
+            title: "Wrong!!!",
+            type: "warning",
+            icon: "error"
+        })
+
 
     }
     hunnid1.addClass('black')
@@ -76,6 +105,27 @@ hunnid1.on('click', function () {
 
 function hideText2 () {
 
+    let response = prompt()
+    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+
+
+        swal({
+            title: "Good job!",
+            // text: "You clicked the button!",
+            icon: "success",
+          });
+      
+    } else {
+
+        swal({
+
+            title: "Wrong!!!",
+            type: "warning",
+            icon: "error"
+        })
+
+
+    }
     hunnid2.addClass('black')
 }
 
@@ -92,6 +142,27 @@ hunnid2.on('click', function () {
 
 function hideText3 () {
 
+    let response = prompt()
+    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+
+
+        swal({
+            title: "Good job!",
+            // text: "You clicked the button!",
+            icon: "success",
+          });
+      
+    } else {
+
+        swal({
+
+            title: "Wrong!!!",
+            type: "warning",
+            icon: "error"
+        })
+
+
+    }
     hunnid3.addClass('black')
 }
 
@@ -108,6 +179,27 @@ hunnid3.on('click', function () {
 
 function hideText4 () {
 
+    let response = prompt()
+    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+
+
+        swal({
+            title: "Good job!",
+            // text: "You clicked the button!",
+            icon: "success",
+          });
+      
+    } else {
+
+        swal({
+
+            title: "Wrong!!!",
+            type: "warning",
+            icon: "error"
+        })
+
+
+    }
     hunnid4.addClass('black')
 }
 
@@ -126,6 +218,27 @@ hunnid4.on('click', function () {
 
 function hideText5 () {
 
+    let response = prompt()
+    if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
+
+
+        swal({
+            title: "Good job!",
+            // text: "You clicked the button!",
+            icon: "success",
+          });
+      
+    } else {
+
+        swal({
+
+            title: "Wrong!!!",
+            type: "warning",
+            icon: "error"
+        })
+
+
+    }
     second.addClass('black')
 }
 
