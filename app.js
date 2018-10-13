@@ -26,7 +26,7 @@ anime({
 
 })
 
-let points = $('.points')
+let points = $('.points').val()
 // let start = 0
 
 // About to connect boxes to change inner text to a question
@@ -45,8 +45,9 @@ function hideText () {
             icon: "success",
           });
         
-          points.text('100')
-        //   console.log(points)
+          points += 100
+        //   points.text(points)
+        //  console.log(points)
       
     } else {
 
