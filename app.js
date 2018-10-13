@@ -25,11 +25,6 @@ anime({
 
 // About to connect boxes to change inner text to a question
 
-let test = $('.toprow').eq(0)
 
-test.on('click', function () {
-
-    test.text('What is a banana?')
-})
 
   
