@@ -38,7 +38,103 @@ hunnid.on('click', function () {
     hunnid.addClass('small')
     setInterval(hideText, 5000)
 })
+/////
 
+function hideText1 () {
+
+    hunnid1.addClass('black')
+}
+
+let hunnid1 = $('.row').eq(1)
+
+hunnid1.on('click', function () {
+
+    hunnid1.text('This arithmetic operator assigns a value?')
+    hunnid1.addClass('small')
+    setInterval(hideText1, 5000)
+})
+
+/////
+
+function hideText2 () {
+
+    hunnid2.addClass('black')
+}
+
+let hunnid2 = $('.row').eq(2)
+
+hunnid2.on('click', function () {
+
+    hunnid2.text('No Ceilings')
+    hunnid2.addClass('small')
+    setInterval(hideText2, 5000)
+})
+
+//////
+
+function hideText3 () {
+
+    hunnid3.addClass('black')
+}
+
+let hunnid3 = $('.row').eq(3)
+
+hunnid3.on('click', function () {
+
+    hunnid3.text('This movie stars Michal Jordan and Bugs Bunny')
+    hunnid3.addClass('small')
+    setInterval(hideText3, 5000)
+})
+
+////// 
+
+function hideText4 () {
+
+    hunnid4.addClass('black')
+}
+
+let hunnid4 = $('.row').eq(4)
+
+hunnid4.on('click', function () {
+
+    hunnid4.text('This system is known for its exclusives')
+    hunnid4.addClass('small')
+    setInterval(hideText4, 5000)
+})
+
+//this ends the 100 point value section
+
+/////
+
+function hideText5 () {
+
+    second.addClass('black')
+}
+
+let second = $('.row').eq(5)
+
+second.on('click', function () {
+
+    second.text('This man wore #8 and #24')
+    second.addClass('small')
+    setInterval(hideText5, 5000)
+})
+
+//////
+
+function hideText6 () {
+
+    second2.addClass('black')
+}
+
+let second2 = $('.row').eq(6)
+
+second2.on('click', function () {
+
+    second2.text('This man wore #8 and #24')
+    second2.addClass('small')
+    setInterval(hideText6, 5000)
+})
 
 
   
