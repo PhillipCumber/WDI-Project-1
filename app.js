@@ -25,19 +25,20 @@ anime({
 
 // About to connect boxes to change inner text to a question
 
+function hideText () {
+
+    hunnid.addClass('black')
+}
+
 let hunnid = $('.row').eq(0)
 
 hunnid.on('click', function () {
 
     hunnid.text('This team has won the last 2 NBA Titles?')
     hunnid.addClass('small')
-    setInterval(hideHunnid, 7000)
+    setInterval(hideText, 5000)
 })
 
-function hideHunnid () {
-
-    hunnid.hide()
-}
 
 
   

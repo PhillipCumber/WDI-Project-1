@@ -81,13 +81,13 @@ body {
     /* margin-top: 20px; */
     border: ridge;
     border-radius: 5px;
-    position: relative;
+    /* position: relative; */
 }
 
 .row:hover {
 
     background: orangered;
-    height: 100px;
+  
 }
 
 /* About to design each row individually */
@@ -124,4 +124,9 @@ body {
 .small {
 
     font-size: 20px;
+}
+
+.black {
+
+    background: black;
 }
