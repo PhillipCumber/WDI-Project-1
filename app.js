@@ -31,13 +31,11 @@ anime({
 function hideText () {
 
     let response = prompt()
-    if (response == 'who are the warriors') {
+    if (response == 'who are the warriors' || 'warriors' || 'golden state warriors') {
 
-        // setInterval(hideText, 0000)
+      
     } else {
 
-        // alert('wrong foo')
-        // setInterval(hideText, 0000)
     }
     hunnid.addClass('black')
 }
@@ -48,22 +46,20 @@ hunnid.on('click', function () {
 
     hunnid.text('This team has won the last 2 NBA Titles?')
     hunnid.addClass('small')
-    // let response = prompt()
-
-    // if (response == 'who are the warriors') {
-
-    //     setInterval(hideText, 0000)
-    // } else {
-
-    //     alert('wrong foo')
-    //     setInterval(hideText, 0000)
-    // }
+    
     setTimeout(hideText, 5000)
 })
 /////
 
 function hideText1 () {
 
+    let response = prompt()
+    if (response == 'what is the equal sign' || '=') {
+
+        alert('nice')
+    } else {
+
+    }
     hunnid1.addClass('black')
 }
 
@@ -73,7 +69,7 @@ hunnid1.on('click', function () {
 
     hunnid1.text('This arithmetic operator assigns a value?')
     hunnid1.addClass('small')
-    setInterval(hideText1, 5000)
+    setTimeout(hideText1, 5000)
 })
 
 /////
@@ -89,7 +85,7 @@ hunnid2.on('click', function () {
 
     hunnid2.text('No Ceilings')
     hunnid2.addClass('small')
-    setInterval(hideText2, 5000)
+    setTimeout(hideText2, 5000)
 })
 
 //////
@@ -105,7 +101,7 @@ hunnid3.on('click', function () {
 
     hunnid3.text('This movie stars Michal Jordan and Bugs Bunny')
     hunnid3.addClass('small')
-    setInterval(hideText3, 5000)
+    setTimeout(hideText3, 5000)
 })
 
 ////// 
@@ -121,7 +117,7 @@ hunnid4.on('click', function () {
 
     hunnid4.text('This system is known for its exclusives')
     hunnid4.addClass('small')
-    setInterval(hideText4, 5000)
+    setTimeout(hideText4, 5000)
 })
 
 //this ends the 100 point value section
@@ -139,7 +135,7 @@ second.on('click', function () {
 
     second.text('This man wore #8 and #24')
     second.addClass('small')
-    setInterval(hideText5, 5000)
+    setTimeout(hideText5, 5000)
 })
 
 //////
@@ -155,7 +151,7 @@ second2.on('click', function () {
 
     second2.text('This tag allows you use JS in HTML')
     second2.addClass('small')
-    setInterval(hideText6, 5000)
+    setTimeout(hideText6, 5000)
 })
 
 //////
@@ -171,7 +167,7 @@ second3.on('click', function () {
 
     second3.text('Graduation')
     second3.addClass('small')
-    setInterval(hideText7, 5000)
+    setTimeout(hideText7, 5000)
 })
 
 //////
@@ -187,7 +183,7 @@ second4.on('click', function () {
 
     second4.text('RIIIICKKKYYYYYY!!')
     second4.addClass('small')
-    setInterval(hideText8, 5000)
+    setTimeout(hideText8, 5000)
 })
 
 /////
@@ -203,7 +199,7 @@ second5.on('click', function () {
 
     second5.text('This FPS revolutionized online gaming')
     second5.addClass('small')
-    setInterval(hideText9, 5000)
+    setTimeout(hideText9, 5000)
 })
 
 ///this section is the end of the 200 point value questions
@@ -221,7 +217,7 @@ third.on('click', function () {
 
     third.text('This man won 5 straight Nascar titles from 06-10')
     third.addClass('small')
-    setInterval(hideText10, 5000)
+    setTimeout(hideText10, 5000)
 })
 
 //////
@@ -238,7 +234,7 @@ third2.on('click', function () {
 
     third2.text('This CSS framework reminds you of a southern state')
     third2.addClass('small')
-    setInterval(hideText11, 5000)
+    setTimeout(hideText11, 5000)
 })
 
 //////
@@ -254,7 +250,7 @@ third3.on('click', function () {
 
     third3.text('King Remebered In Time(acronym)')
     third3.addClass('small')
-    setInterval(hideText12, 5000)
+    setTimeout(hideText12, 5000)
 })
 
 //////
@@ -270,7 +266,7 @@ third4.on('click', function () {
 
     third4.text('This dog was good at all sports!!')
     third4.addClass('small')
-    setInterval(hideText13, 5000)
+    setTimeout(hideText13, 5000)
 })
 
 //////
@@ -286,7 +282,7 @@ third5.on('click', function () {
 
     third5.text('This character used to jump over barrels')
     third5.addClass('small')
-    setInterval(hideText14, 5000)
+    setTimeout(hideText14, 5000)
 })
 
 /////this marks the end of the 300 point value questions
@@ -304,7 +300,7 @@ fourth.on('click', function () {
 
     fourth.text('Last player to win Triple Crown(MLB)')
     fourth.addClass('small')
-    setInterval(hideText15, 5000)
+    setTimeout(hideText15, 5000)
 })
 
 //////
@@ -321,7 +317,7 @@ fourth2.on('click', function () {
 
     fourth2.text('HTML stands for?')
     fourth2.addClass('small')
-    setInterval(hideText16, 5000)
+    setTimeout(hideText16, 5000)
 })
 
 /////
@@ -338,7 +334,7 @@ fourth3.on('click', function () {
 
     fourth3.text('Acid Rap')
     fourth3.addClass('small')
-    setInterval(hideText17, 5000)
+    setTimeout(hideText17, 5000)
 })
 
 ////
@@ -356,7 +352,7 @@ fourth4.on('click', function () {
 
     fourth4.text('Tyler Perrys Iconic Character')
     fourth4.addClass('small')
-    setInterval(hideText18, 5000)
+    setTimeout(hideText18, 5000)
 })
 
 //////
@@ -373,7 +369,7 @@ fourth5.on('click', function () {
 
     fourth5.text('This character was Dr. Cortex nemesis')
     fourth5.addClass('small')
-    setInterval(hideText19, 5000)
+    setTimeout(hideText19, 5000)
 })
 
 ////// this is the end of the 400 point value questions
@@ -391,7 +387,7 @@ fif.on('click', function () {
 
     fif.text('This character was Dr. Cortex nemesis')
     fif.addClass('small')
-    setInterval(hideText20, 5000)
+    setTimeout(hideText20, 5000)
 })
 
 /////
@@ -407,7 +403,7 @@ fif2.on('click', function () {
 
     fif2.text('This array method adds to the front')
     fif2.addClass('small')
-    setInterval(hideText21, 5000)
+    setTimeout(hideText21, 5000)
 })
 
 ///////
@@ -423,7 +419,7 @@ fif3.on('click', function () {
 
     fif3.text('I Love Life, Thank You')
     fif3.addClass('small')
-    setInterval(hideText22, 5000)
+    setTimeout(hideText22, 5000)
 })
 
 ///////
@@ -439,7 +435,7 @@ fif4.on('click', function () {
 
     fif4.text('Big Mama is played by what comedian')
     fif4.addClass('small')
-    setInterval(hideText23, 5000)
+    setTimeout(hideText23, 5000)
 })
 
 //////
@@ -455,7 +451,7 @@ fif5.on('click', function () {
 
     fif5.text('This iconic game is known for the phrase "SNAAAAAKE"')
     fif5.addClass('small')
-    setInterval(hideText24, 5000)
+    setTimeout(hideText24, 5000)
 })
 
 
