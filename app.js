@@ -36,7 +36,17 @@ hunnid.on('click', function () {
 
     hunnid.text('This team has won the last 2 NBA Titles?')
     hunnid.addClass('small')
-    setInterval(hideText, 5000)
+    let response = prompt()
+
+    if (response == 'who are the warriors') {
+
+        setInterval(hideText, 0000)
+    } else {
+
+        alert('wrong foo')
+        setInterval(hideText, 0000)
+    }
+    // setInterval(hideText, 5000)
 })
 /////
 
@@ -268,5 +278,9 @@ third5.on('click', function () {
 })
 
 /////this marks the end of the 300 point value questions
+
+/////
+
+
 
   
