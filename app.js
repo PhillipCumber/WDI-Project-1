@@ -24,6 +24,7 @@ anime({
 })
 
 // About to connect boxes to change inner text to a question
+// Each box will have its on section in between the (//)
 
 function hideText () {
 
@@ -280,6 +281,179 @@ third5.on('click', function () {
 /////this marks the end of the 300 point value questions
 
 /////
+
+function hideText15 () {
+
+    fourth.addClass('black')
+}
+
+let fourth = $('.row').eq(15)
+
+fourth.on('click', function () {
+
+    fourth.text('Last player to win Triple Crown(MLB)')
+    fourth.addClass('small')
+    setInterval(hideText15, 5000)
+})
+
+//////
+
+
+function hideText16 () {
+
+    fourth2.addClass('black')
+}
+
+let fourth2 = $('.row').eq(16)
+
+fourth2.on('click', function () {
+
+    fourth2.text('HTML stands for?')
+    fourth2.addClass('small')
+    setInterval(hideText16, 5000)
+})
+
+/////
+
+
+function hideText17 () {
+
+    fourth3.addClass('black')
+}
+
+let fourth3 = $('.row').eq(17)
+
+fourth3.on('click', function () {
+
+    fourth3.text('Acid Rap')
+    fourth3.addClass('small')
+    setInterval(hideText17, 5000)
+})
+
+////
+
+
+
+function hideText18 () {
+
+    fourth4.addClass('black')
+}
+
+let fourth4 = $('.row').eq(18)
+
+fourth4.on('click', function () {
+
+    fourth4.text('Tyler Perrys Iconic Character')
+    fourth4.addClass('small')
+    setInterval(hideText18, 5000)
+})
+
+//////
+
+
+function hideText19 () {
+
+    fourth5.addClass('black')
+}
+
+let fourth5 = $('.row').eq(19)
+
+fourth5.on('click', function () {
+
+    fourth5.text('This character was Dr. Cortex nemesis')
+    fourth5.addClass('small')
+    setInterval(hideText19, 5000)
+})
+
+////// this is the end of the 400 point value questions
+
+//////
+
+function hideText20 () {
+
+    fif.addClass('black')
+}
+
+let fif = $('.row').eq(20)
+
+fif.on('click', function () {
+
+    fif.text('This character was Dr. Cortex nemesis')
+    fif.addClass('small')
+    setInterval(hideText20, 5000)
+})
+
+/////
+
+function hideText21 () {
+
+    fif2.addClass('black')
+}
+
+let fif2 = $('.row').eq(21)
+
+fif2.on('click', function () {
+
+    fif2.text('This array method adds to the front')
+    fif2.addClass('small')
+    setInterval(hideText21, 5000)
+})
+
+///////
+
+function hideText22 () {
+
+    fif3.addClass('black')
+}
+
+let fif3 = $('.row').eq(22)
+
+fif3.on('click', function () {
+
+    fif3.text('I Love Life, Thank You')
+    fif3.addClass('small')
+    setInterval(hideText22, 5000)
+})
+
+///////
+
+function hideText23 () {
+
+    fif4.addClass('black')
+}
+
+let fif4 = $('.row').eq(23)
+
+fif4.on('click', function () {
+
+    fif4.text('Big Mama is played by what comedian')
+    fif4.addClass('small')
+    setInterval(hideText23, 5000)
+})
+
+//////
+
+function hideText24 () {
+
+    fif5.addClass('black')
+}
+
+let fif5 = $('.row').eq(24)
+
+fif5.on('click', function () {
+
+    fif5.text('This iconic game is known for the phrase "SNAAAAAKE"')
+    fif5.addClass('small')
+    setInterval(hideText24, 5000)
+})
+
+
+
+
+
+
+
+
 
 
 
