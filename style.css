@@ -21,12 +21,12 @@ body {
 
 /* Adding a hover to change to when you hover over title */
 
-#title:hover {
+/* #title:hover {
 
     height: 280px;
     width: 500px;
     font-size: 100px;
-}
+} */
 
 /* Creating styling for background of game */
 
@@ -56,6 +56,16 @@ body {
     /* border: solid; */
 }
 
+.head {
+
+    height: 80px;
+    width: 220px;
+    background: linear-gradient(to right, purple, orange);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
 .row {
 
     height: 50px;
@@ -65,4 +75,34 @@ body {
     text-align: center;
     /* margin-top: 20px; */
     border: ridge;
+    border-radius: 5px;
+}
+
+/* About to design each row individually */
+
+.top {
+
+    background-color: blue;
+}
+
+.second {
+
+    background-color: green;
+}
+
+.third {
+
+    background-color: orange;
+}
+
+.fourth {
+
+    background-color: teal;
+
+}
+
+.fif {
+
+    background-color: gold;
+
 }
