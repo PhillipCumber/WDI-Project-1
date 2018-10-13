@@ -66,6 +66,11 @@ body {
     font-size: 40px;
 }
 
+.head:hover {
+
+    background: orangered;
+}
+
 .row {
 
     height: 50px;
@@ -76,6 +81,13 @@ body {
     /* margin-top: 20px; */
     border: ridge;
     border-radius: 5px;
+    position: relative;
+}
+
+.row:hover {
+
+    background: orangered;
+    height: 100px;
 }
 
 /* About to design each row individually */
@@ -105,4 +117,11 @@ body {
 
     background-color: gold;
 
+}
+
+/* will be the class added after a box is clicked */
+
+.small {
+
+    font-size: 20px;
 }
