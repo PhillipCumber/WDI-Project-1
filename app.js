@@ -5,6 +5,7 @@
 //step 1 Created a header section for the title of the game. Includes animation and on hover event
 // step 2 Create a table to store all data in for game
 // step 3 Make sure I can click on a box to change the inner text to a question
+// step 4 Add prompt to answer questions
 
 let title = $('#title')
 // console.log(title)
@@ -25,9 +26,19 @@ anime({
 
 // About to connect boxes to change inner text to a question
 // Each box will have its on section in between the (//)
+// The "hideText" functions # will coincide with each box
 
 function hideText () {
 
+    let response = prompt()
+    if (response == 'who are the warriors') {
+
+        // setInterval(hideText, 0000)
+    } else {
+
+        // alert('wrong foo')
+        // setInterval(hideText, 0000)
+    }
     hunnid.addClass('black')
 }
 
@@ -37,17 +48,17 @@ hunnid.on('click', function () {
 
     hunnid.text('This team has won the last 2 NBA Titles?')
     hunnid.addClass('small')
-    let response = prompt()
+    // let response = prompt()
 
-    if (response == 'who are the warriors') {
+    // if (response == 'who are the warriors') {
 
-        setInterval(hideText, 0000)
-    } else {
+    //     setInterval(hideText, 0000)
+    // } else {
 
-        alert('wrong foo')
-        setInterval(hideText, 0000)
-    }
-    // setInterval(hideText, 5000)
+    //     alert('wrong foo')
+    //     setInterval(hideText, 0000)
+    // }
+    setTimeout(hideText, 5000)
 })
 /////
 
