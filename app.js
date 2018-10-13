@@ -131,9 +131,57 @@ let second2 = $('.row').eq(6)
 
 second2.on('click', function () {
 
-    second2.text('This man wore #8 and #24')
+    second2.text('This tag allows you use JS in HTML')
     second2.addClass('small')
     setInterval(hideText6, 5000)
+})
+
+//////
+
+function hideText7 () {
+
+    second3.addClass('black')
+}
+
+let second3 = $('.row').eq(7)
+
+second3.on('click', function () {
+
+    second3.text('Graduation')
+    second3.addClass('small')
+    setInterval(hideText7, 5000)
+})
+
+//////
+
+function hideText8 () {
+
+    second4.addClass('black')
+}
+
+let second4 = $('.row').eq(8)
+
+second4.on('click', function () {
+
+    second4.text('RIIIICKKKYYYYYY!!')
+    second4.addClass('small')
+    setInterval(hideText8, 5000)
+})
+
+/////
+
+function hideText9 () {
+
+    second5.addClass('black')
+}
+
+let second5 = $('.row').eq(9)
+
+second5.on('click', function () {
+
+    second5.text('This FPS revolutionized online gaming')
+    second5.addClass('small')
+    setInterval(hideText9, 5000)
 })
 
 
