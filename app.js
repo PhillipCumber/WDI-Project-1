@@ -184,5 +184,89 @@ second5.on('click', function () {
     setInterval(hideText9, 5000)
 })
 
+///this section is the end of the 200 point value questions
+
+//////
+
+function hideText10 () {
+
+    third.addClass('black')
+}
+
+let third = $('.row').eq(10)
+
+third.on('click', function () {
+
+    third.text('This man won 5 straight Nascar titles from 06-10')
+    third.addClass('small')
+    setInterval(hideText10, 5000)
+})
+
+//////
+
+
+function hideText11 () {
+
+    third2.addClass('black')
+}
+
+let third2 = $('.row').eq(11)
+
+third2.on('click', function () {
+
+    third2.text('This CSS framework reminds you of a southern state')
+    third2.addClass('small')
+    setInterval(hideText11, 5000)
+})
+
+//////
+
+function hideText12 () {
+
+    third3.addClass('black')
+}
+
+let third3 = $('.row').eq(12)
+
+third3.on('click', function () {
+
+    third3.text('King Remebered In Time(acronym)')
+    third3.addClass('small')
+    setInterval(hideText12, 5000)
+})
+
+//////
+
+function hideText13 () {
+
+    third4.addClass('black')
+}
+
+let third4 = $('.row').eq(13)
+
+third4.on('click', function () {
+
+    third4.text('This dog was good at all sports!!')
+    third4.addClass('small')
+    setInterval(hideText13, 5000)
+})
+
+//////
+
+function hideText14 () {
+
+    third5.addClass('black')
+}
+
+let third5 = $('.row').eq(14)
+
+third5.on('click', function () {
+
+    third5.text('This character used to jump over barrels')
+    third5.addClass('small')
+    setInterval(hideText14, 5000)
+})
+
+/////this marks the end of the 300 point value questions
 
   

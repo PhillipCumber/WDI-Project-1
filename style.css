@@ -32,14 +32,14 @@ body {
 
 #outerBack {
 
-    height: 550px;
+    height: 650px;
     width: 1200px;
     background-color: purple;
     margin: 0 auto;
     /* background-image: linear-gradient(to right, purple, orange); */
-    border-radius: 10px;
+    /* border-radius: 10px;
     border-style: ridge;
-    border-color: blue;
+    border-color: blue; */
 }
 
 #board1 {
@@ -60,7 +60,7 @@ body {
 
     height: 80px;
     width: 220px;
-    background: linear-gradient(to right, purple, orange);
+    background: linear-gradient(to right, purple, orange, purple);
     text-align: center;
     color: whitesmoke;
     font-size: 40px;
@@ -73,7 +73,7 @@ body {
 
 .row {
 
-    height: 50px;
+    height: 70px;
     width: 200px;
     background: red;
     font-size: 35px;
