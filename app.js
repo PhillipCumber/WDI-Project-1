@@ -26,8 +26,8 @@ anime({
 
 })
 
-let points = $('.points').val()
-// let start = 0
+let points = $('.points')
+let start = 0
 
 // About to connect boxes to change inner text to a question
 // Each box will have its on section in between the (//)
@@ -45,10 +45,8 @@ function hideText () {
             icon: "success",
           });
         
-          points += 100
-        //   points.text(points)
-        //  console.log(points)
-      
+          points.html(`${start += 100}`)
+
     } else {
 
         swal({
@@ -86,6 +84,9 @@ function hideText1 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 100}`)
+
       
     } else {
 
