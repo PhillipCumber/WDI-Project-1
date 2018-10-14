@@ -41,7 +41,7 @@ function hideText () {
 
         swal({
             title: "Good job!",
-            // text: "You clicked the button!",
+            text: "Golden State Warriors",
             icon: "success",
           });
         
