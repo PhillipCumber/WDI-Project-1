@@ -3,12 +3,17 @@ body {
 
 }
 
+header {
+
+    display: flex;
+}
+
 /* Styling for my header section */
 #title {
 
     height: 200px;
     width: 400px;
-    background-color: red;
+    /* background-color: red; */
     border-style: ridge;
     border-color: blue;
     border-width: 10px;
@@ -16,7 +21,7 @@ body {
     color: blue;
     font-size: 50px;
     text-shadow: 3px 3px black;
-    margin-left: 500px;
+    margin-left: 50px;
 }
 
 /* Adding a hover to change to when you hover over title */
@@ -139,4 +144,20 @@ body {
 .black {
 
     background: black;
+}
+
+/* Added a point box,this will be the design of that box */
+
+.points {
+
+    height: 150px;
+    width: 300px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border-style: ridge;
+
 }

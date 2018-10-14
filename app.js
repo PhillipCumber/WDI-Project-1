@@ -124,6 +124,9 @@ function hideText2 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 100}`)
+
       
     } else {
 
@@ -161,6 +164,9 @@ function hideText3 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 100}`)
+
       
     } else {
 
@@ -198,6 +204,9 @@ function hideText4 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 100}`)
+
       
     } else {
 
@@ -237,6 +246,8 @@ function hideText5 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          
       
     } else {
 
