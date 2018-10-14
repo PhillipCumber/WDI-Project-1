@@ -692,6 +692,9 @@ function hideText16 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 400}`)
+
       
     } else {
 
@@ -730,6 +733,9 @@ function hideText17 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 400}`)
+
       
     } else {
 
@@ -769,6 +775,9 @@ function hideText18 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 400}`)
+
       
     } else {
 
@@ -807,6 +816,9 @@ function hideText19 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 400}`)
+
       
     } else {
 
@@ -846,6 +858,9 @@ function hideText20 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 500}`)
+
       
     } else {
 
