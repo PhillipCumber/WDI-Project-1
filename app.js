@@ -56,6 +56,8 @@ function hideText () {
             icon: "error"
         })
 
+        points.html(`${start -= 100}`)
+
 
     }
     hunnid.addClass('black')
@@ -97,6 +99,8 @@ function hideText1 () {
             icon: "error"
         })
 
+        points.html(`${start -= 100}`)
+
 
     }
     hunnid1.addClass('black')
@@ -136,6 +140,9 @@ function hideText2 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 100}`)
+
 
 
     }
@@ -177,6 +184,9 @@ function hideText3 () {
             icon: "error"
         })
 
+        points.html(`${start -= 100}`)
+
+
 
     }
     hunnid3.addClass('black')
@@ -216,6 +226,9 @@ function hideText4 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 100}`)
+
 
 
     }
@@ -259,6 +272,9 @@ function hideText5 () {
             icon: "error"
         })
 
+        points.html(`${start -= 200}`)
+
+
 
     }
     second.addClass('black')
@@ -278,7 +294,7 @@ second.on('click', function () {
 function hideText6 () {
 
     let response = prompt()
-    if (response == 'what is a script tag'|| response == 'script tag') {
+    if (response == 'what is a script tag'|| response == 'script tag' || response == 'script') {
 
 
         swal({
@@ -298,6 +314,9 @@ function hideText6 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 200}`)
+
 
 
     }
@@ -339,6 +358,9 @@ function hideText7 () {
             icon: "error"
         })
 
+        points.html(`${start -= 200}`)
+
+
 
     }
     second3.addClass('black')
@@ -379,6 +401,9 @@ function hideText8 () {
             icon: "error"
         })
 
+        points.html(`${start -= 200}`)
+
+
 
     }
     second4.addClass('black')
@@ -418,6 +443,9 @@ function hideText9 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 200}`)
+
 
 
     }
@@ -461,6 +489,9 @@ function hideText10 () {
             icon: "error"
         })
 
+        points.html(`${start -= 300}`)
+
+
 
     }
     third.addClass('black')
@@ -502,6 +533,9 @@ function hideText11 () {
             icon: "error"
         })
 
+        points.html(`${start -= 300}`)
+
+
 
     }
     third2.addClass('black')
@@ -541,6 +575,9 @@ function hideText12 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 300}`)
+
 
 
     }
@@ -582,6 +619,9 @@ function hideText13 () {
             icon: "error"
         })
 
+        points.html(`${start -= 300}`)
+
+
 
     }
     third4.addClass('black')
@@ -621,6 +661,9 @@ function hideText14 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 300}`)
+
 
 
     }
@@ -898,6 +941,9 @@ function hideText21 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 500}`)
+
       
     } else {
 
@@ -935,6 +981,9 @@ function hideText22 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 500}`)
+
       
     } else {
 
@@ -972,6 +1021,9 @@ function hideText23 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 500}`)
+
       
     } else {
 
@@ -1009,6 +1061,9 @@ function hideText24 () {
             // text: "You clicked the button!",
             icon: "success",
           });
+
+          points.html(`${start += 500}`)
+
       
     } else {
 
