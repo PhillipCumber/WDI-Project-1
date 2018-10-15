@@ -707,6 +707,9 @@ function hideText15 () {
             icon: "error"
         })
 
+        points.html(`${start -= 400}`)
+
+
 
     }
     fourth.addClass('black')
@@ -748,6 +751,9 @@ function hideText16 () {
             icon: "error"
         })
 
+        points.html(`${start -= 400}`)
+
+
 
     }
     fourth2.addClass('black')
@@ -788,6 +794,9 @@ function hideText17 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 400}`)
+
 
 
     }
@@ -831,6 +840,8 @@ function hideText18 () {
             icon: "error"
         })
 
+        points.html(`${start -= 400}`)
+
 
     }
     fourth4.addClass('black')
@@ -871,6 +882,8 @@ function hideText19 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 400}`)
 
 
     }
@@ -914,6 +927,9 @@ function hideText20 () {
             icon: "error"
         })
 
+        points.html(`${start -= 500}`)
+
+
 
     }
     fif.addClass('black')
@@ -953,6 +969,9 @@ function hideText21 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 500}`)
+
 
 
     }
@@ -994,6 +1013,9 @@ function hideText22 () {
             icon: "error"
         })
 
+        points.html(`${start -= 500}`)
+
+
 
     }
     fif3.addClass('black')
@@ -1034,6 +1056,9 @@ function hideText23 () {
             icon: "error"
         })
 
+        points.html(`${start -= 500}`)
+
+
 
     }
     fif4.addClass('black')
@@ -1073,6 +1098,9 @@ function hideText24 () {
             type: "warning",
             icon: "error"
         })
+
+        points.html(`${start -= 500}`)
+
 
 
     }
