@@ -588,6 +588,9 @@ let third3 = $('.row').eq(12)
 
 third3.on('click', function () {
 
+    let audio = new Audio('audio/metalgear.mp3')
+        audio.play()
+
     third3.text('King Remebered In Time')
     third3.addClass('small')
     setTimeout(hideText12, 5000)
@@ -939,6 +942,9 @@ let fif = $('.row').eq(20)
 
 fif.on('click', function () {
 
+    let audio = new Audio('audio/metalgear.mp3')
+    audio.play()
+    
     fif.text('This player is known as Uncle Drew')
     fif.addClass('small')
     setTimeout(hideText20, 5000)
