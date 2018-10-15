@@ -1,4 +1,5 @@
-This was the first project of my WDI bootcamp. I have created a jeopardy game. In this game I used a few outside javascript libraries. No, no bootstrap...I am not a fan of bootstrap at all. I like to create my own stuff. Here is a link to my page https://app.netlify.com/sites/awesome-poitras-8c95cc/overview.
+This was the first project of my WDI bootcamp. I have created a jeopardy game. In this game I used a few outside javascript libraries. No, no bootstrap...I am not a fan of bootstrap at all. I like to create my own stuff. Here is a link to my page 
+https://awesome-poitras-8c95cc.netlify.com
 
 Here is the link to my Trello board that contains my User Stories
 https://trello.com/b/jZODCZR1/wdi-project-1-create-game
