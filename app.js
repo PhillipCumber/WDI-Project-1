@@ -554,7 +554,7 @@ third2.on('click', function () {
 
 function hideText12 () {
 
-    let response = prompt()
+    let response = prompt('King Remembered In Time')
     if (response == 'who is big krit'|| response == 'big krit') {
 
 
@@ -564,7 +564,7 @@ function hideText12 () {
             icon: "success",
           });
 
-          points.html(`${start += 300}`)
+          points.html(`${start += 600}`)
 
       
     } else {
@@ -576,11 +576,12 @@ function hideText12 () {
             icon: "error"
         })
 
-        points.html(`${start -= 300}`)
+        points.html(`${start -= 600}`)
 
 
 
     }
+    third3.removeClass('dailyDouble')
     third3.addClass('black')
 }
 
@@ -588,11 +589,12 @@ let third3 = $('.row').eq(12)
 
 third3.on('click', function () {
 
-    let audio = new Audio('audio/metalgear.mp3')
+    let audio = new Audio('audio/jeop.mp3')
         audio.play()
 
-    third3.text('King Remebered In Time')
+    third3.text('Daily Double')
     third3.addClass('small')
+    third3.addClass('dailyDouble')
     setTimeout(hideText12, 5000)
 })
 
@@ -918,7 +920,7 @@ function hideText20 () {
             icon: "success",
           });
 
-          points.html(`${start += 500}`)
+          points.html(`${start += 1000}`)
 
       
     } else {
@@ -930,7 +932,7 @@ function hideText20 () {
             icon: "error"
         })
 
-        points.html(`${start -= 500}`)
+        points.html(`${start -= 1000}`)
 
 
 
@@ -942,9 +944,9 @@ let fif = $('.row').eq(20)
 
 fif.on('click', function () {
 
-    let audio = new Audio('audio/metalgear.mp3')
+    let audio = new Audio('audio/jeop.mp3')
     audio.play()
-    
+
     fif.text('This player is known as Uncle Drew')
     fif.addClass('small')
     setTimeout(hideText20, 5000)

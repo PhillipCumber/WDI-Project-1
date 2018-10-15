@@ -161,3 +161,43 @@ header {
     border-style: ridge;
 
 }
+
+/* Adding a daily double bonus class*/
+
+.dailyDouble {
+
+    animation: double 2s;
+    height: 200px;
+    width: 400px;
+    font-size: 80px;
+    color: blueviolet;
+    text-shadow: 0px 5px black;
+}
+
+@keyframes double {
+
+    0% {
+
+        background: red;
+    }
+
+    25% {
+
+        background: blue
+    }
+
+    50% {
+
+        background: chartreuse;
+    }
+
+    75% {
+
+        background: purple;
+    }
+
+    100% {
+
+        background: aqua;
+    }
+}
