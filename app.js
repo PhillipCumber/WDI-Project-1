@@ -35,7 +35,7 @@ let start = 0
 
 function hideText () {
 
-    let response = prompt()
+    let response = prompt('This team won the last 2 NBA Titles')
     if (response == 'who are the warriors'|| response == 'warriors' || response == 'golden state warriors') {
 
 
@@ -52,7 +52,7 @@ function hideText () {
         swal({
 
             title: "Wrong!!!",
-            type: "warning",
+            text: "Golden State Warriors",
             icon: "error"
         })
 
