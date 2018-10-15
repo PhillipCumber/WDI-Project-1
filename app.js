@@ -595,7 +595,7 @@ third3.on('click', function () {
     third3.text('Daily Double')
     third3.addClass('small')
     third3.addClass('dailyDouble')
-    setTimeout(hideText12, 5000)
+    setTimeout(hideText12, 3000)
 })
 
 //////
@@ -910,7 +910,7 @@ fourth5.on('click', function () {
 
 function hideText20 () {
 
-    let response = prompt()
+    let response = prompt('This player is known as Uncle Drew')
     if (response == 'who is kyrie irving'|| response == 'kyrie irving') {
 
 
@@ -937,6 +937,7 @@ function hideText20 () {
 
 
     }
+    fif.removeClass('dailyDouble')
     fif.addClass('black')
 }
 
@@ -947,9 +948,10 @@ fif.on('click', function () {
     let audio = new Audio('audio/jeop.mp3')
     audio.play()
 
-    fif.text('This player is known as Uncle Drew')
+    fif.text('Daily Double')
     fif.addClass('small')
-    setTimeout(hideText20, 5000)
+    fif.addClass('dailyDouble')
+    setTimeout(hideText20, 3000)
 })
 
 /////
